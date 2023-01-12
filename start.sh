@@ -1,10 +1,12 @@
 #!/bin/bash
 
 port=30000
+webhookUrl='https://discord.com/api/webhooks/1063235180501930054/V7RWDzYP5lo9OpTdxfIQ1p7tbQy05MWqRkRAg0VqY0YE-oqbShLqCpyovupsqpXoTH6S'
+
 
 function ctrl_c() {
     ./discord.sh \
-    --webhook-url='https://discord.com/api/webhooks/1063185357828526111/B-SPgtL4CwEhv-2foR1D-Nk8Q65LWPSXLRF2XP8Bi_A6xDCSsiBdH8kThRcKRQK5onlv' \
+    --webhook-url=$webhookUrl \
     --username "FoundryVTT Bot" \
     --text "FoundryVTT Shutting Down!"
 
@@ -14,7 +16,7 @@ function ctrl_c() {
 trap ctrl_c INT
 
 # ./discord.sh \
-#     --webhook-url='https://discord.com/api/webhooks/1063185357828526111/B-SPgtL4CwEhv-2foR1D-Nk8Q65LWPSXLRF2XP8Bi_A6xDCSsiBdH8kThRcKRQK5onlv' \
+#     --webhook-url=$webhookUrl \
 #     --username "FoundryVTT Bot" \
 #     --text "FoundryVTT Server is starting up!"
 
@@ -22,7 +24,7 @@ localip=`ifconfig | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*
 externalip=$(curl -s http://checkip.amazonaws.com)
 
 # ./discord.sh \
-#     --webhook-url='https://discord.com/api/webhooks/1063185357828526111/B-SPgtL4CwEhv-2foR1D-Nk8Q65LWPSXLRF2XP8Bi_A6xDCSsiBdH8kThRcKRQK5onlv' \
+#     --webhook-url=$webhookUrl \
 #     --username "FoundryVTT Bot" \
 #     --text "Foundry Instance\\n\\tLocal IP: http://$localip:$port\\n\\tExternal IP: http://$externalip:$port"
 
