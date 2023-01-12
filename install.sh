@@ -1,3 +1,6 @@
 apt update
-yes | apt install nodejs jq curl
-npm install Application/resources/app/.
+yes | apt install git nodejs npm jq curl ifconfig
+tmp=$(pwd)
+cd Application/resources/app
+npm install
+cd tmp
