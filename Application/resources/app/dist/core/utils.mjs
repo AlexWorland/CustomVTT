@@ -1,0 +1,1 @@
+export async function fromUuid(t){let e,i=t.split(".");if("Compendium"===i[0]){i.shift();const[t,c,s]=i.splice(0,3),l=db.packs.get(`${t}.${c}`);e=await l.get(s,{strict:!0})}else{const[t,c]=i.splice(0,2),s=db[t];e=await s.get(c,{strict:!0})}for(;e&&i.length>1;){const[t,c]=i.splice(0,2);e=e[db[t].collectionName].get(c)}return e||null}

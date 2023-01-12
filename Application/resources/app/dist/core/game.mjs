@@ -1,0 +1,1 @@
+export default class GameServer{active=!1;activity;documentTypes;model;paused=!1;permissions;ready=!1;system=null;template;users=[];world=null}

@@ -1,0 +1,1 @@
+import BaseToken from"../../../common/documents/token.mjs";import ServerDocumentMixin from"../backend/server-document.mjs";export default class Token extends(ServerDocumentMixin(BaseToken)){async loadRelatedDocuments(){if(!this.actor&&(this.actor=await db.Actor.get(this.actorId),!this.actorLink))try{this.actor?.updateSource(this.actorData)}catch(t){global.logger.error(t)}}}

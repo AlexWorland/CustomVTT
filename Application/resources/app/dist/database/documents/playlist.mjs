@@ -1,0 +1,1 @@
+import BasePlaylist from"../../../common/documents/playlist.mjs";import ServerDocumentMixin from"../backend/server-document.mjs";export default class Playlist extends(ServerDocumentMixin(BasePlaylist)){static socketListeners(e){e.on("playAudio",(o=>e.broadcast.emit("playAudio",o))),e.on("preloadAudio",(o=>e.broadcast.emit("preloadAudio",o)))}}

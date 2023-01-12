@@ -1,0 +1,1 @@
+export{default as ServerPackageMixin}from"./package.mjs";import{default as PackageWarnings}from"./warnings.mjs";import Module from"./module.mjs";import System from"./system.mjs";import World from"./world.mjs";export{Module,System,World};export const PACKAGE_TYPE_MAPPING={module:Module,system:System,world:World};export const warnings=new PackageWarnings;
