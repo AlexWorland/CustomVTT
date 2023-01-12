@@ -8,4 +8,4 @@ RUN ./app/install.sh
 
 EXPOSE 30000
 
-# ENTRYPOINT ["app/docker-entrypoint.sh"]
+ENTRYPOINT ["app/docker-entrypoint.sh"]
