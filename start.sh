@@ -1,7 +1,7 @@
 #!/bin/bash
 
 port=30000
-webhookUrl='https://discord.com/api/webhooks/1063235180501930054/V7RWDzYP5lo9OpTdxfIQ1p7tbQy05MWqRkRAg0VqY0YE-oqbShLqCpyovupsqpXoTH6S'
+webhookUrl='https://discord.com/api/webhooks/1063252391132151908/zctbiqFmc1vRUNWKdA6r6vfq8-uKM5OzWA6rkbIYEGBqRMReaXyUIbPFRErEUvESAF2U'
 
 
 function ctrl_c() {
