@@ -2,10 +2,12 @@ FROM debian:latest
 
 COPY ./ app/
 
-RUN cd app; chmod +x install.sh start.sh docker-entrypoint.sh
+RUN chmod +x app/install.sh app/start.sh app/docker-entrypoint.sh
 
 RUN ./app/install.sh
 
 EXPOSE 30000
 
-ENTRYPOINT ["app/docker-entrypoint.sh"]
+WORKDIR /app
+
+ENTRYPOINT ["sh", "start.sh"]
