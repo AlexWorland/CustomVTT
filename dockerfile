@@ -10,4 +10,4 @@ EXPOSE 30000
 
 WORKDIR /app
 
-ENTRYPOINT ["sh", "start.sh"]
+ENTRYPOINT ["bash", "start.sh"]
