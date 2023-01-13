@@ -413,3 +413,31 @@
 {"level":"info","message":"Server started and listening on port 30000","timestamp":"2023-01-12 12:46:57"}
 {"level":"info","message":"Created client session 3203033a22edbabca827bf2a","timestamp":"2023-01-12 12:47:49"}
 {"level":"info","message":"Shutting down Foundry Virtual Tabletop server","timestamp":"2023-01-12 12:48:30"}
+{"level":"info","message":"Running on Node.js - Version 19.4.0","timestamp":"2023-01-12 17:29:43"}
+{"level":"info","message":"Foundry Virtual Tabletop - Version 10 Build 291","timestamp":"2023-01-12 17:29:43"}
+{"level":"info","message":"User Data Directory - \"/Users/alexworland/Library/Application Support/FoundryVTT/CustomVTT/data\"","timestamp":"2023-01-12 17:29:43"}
+{"level":"info","message":"Application Options:\n{\n  \"compressStatic\": true,\n  \"fullscreen\": false,\n  \"hostname\": null,\n  \"language\": \"en.core\",\n  \"localHostname\": null,\n  \"port\": 30000,\n  \"protocol\": null,\n  \"proxyPort\": null,\n  \"proxySSL\": false,\n  \"routePrefix\": null,\n  \"updateChannel\": \"stable\",\n  \"upnp\": true,\n  \"upnpLeaseDuration\": null,\n  \"awsConfig\": null,\n  \"passwordSalt\": null,\n  \"sslCert\": null,\n  \"sslKey\": null,\n  \"world\": null,\n  \"serviceConfig\": null,\n  \"adminPassword\": null\n}","timestamp":"2023-01-12 17:29:43"}
+{"level":"info","message":"Software license verification succeeded","timestamp":"2023-01-12 17:29:43"}
+{"level":"info","message":"Requesting UPnP port forwarding to destination port 30000","timestamp":"2023-01-12 17:29:43"}
+{"level":"info","message":"Server started and listening on port 30000","timestamp":"2023-01-12 17:29:43"}
+{"level":"info","message":"Created client session 91141900eb4b3265dbbd628d","timestamp":"2023-01-12 17:29:44"}
+{"level":"info","message":"Created client session be0586c7d9eff7934e0bd140","timestamp":"2023-01-12 17:29:51"}
+{"level":"info","message":"Created client session d2ad0ced495f3ff004327d95","timestamp":"2023-01-12 17:29:53"}
+{"level":"info","message":"Created client session ae86751e8f2c04f9d861f47d","timestamp":"2023-01-12 17:29:53"}
+{"level":"info","message":"Created client session 34aa98ac90c2dcd55d5b90d9","timestamp":"2023-01-12 17:29:53"}
+{"ip":"::ffff:192.168.0.17","level":"info","message":"User authentication successful for user Gamemaster","session":"be0586c7d9eff7934e0bd140","timestamp":"2023-01-12 17:30:59"}
+{"level":"info","message":"No system update for Star Trek Adventures Roleplaying Game is currently available.","timestamp":"2023-01-12 17:31:00"}
+{"level":"info","message":"Vended World data to User [vQeim8jy8a9qUfub] in 305ms","timestamp":"2023-01-12 17:31:00"}
+{"level":"info","message":"Toggling game pause status to false","timestamp":"2023-01-12 17:31:30"}
+{"level":"info","message":"Created client session 9f19914c29a3b0559f926159","timestamp":"2023-01-12 17:33:19"}
+{"level":"info","message":"FoundryVTT | Created User with id [al5sMRCzrhVOWO6m]","timestamp":"2023-01-12 17:34:16"}
+{"level":"info","message":"FoundryVTT | Created User with id [0ICoJ0e226qvGkOt]","timestamp":"2023-01-12 17:34:17"}
+{"level":"info","message":"FoundryVTT | Created User with id [w8LlOQwCU9yYqcQa]","timestamp":"2023-01-12 17:34:18"}
+{"level":"info","message":"No system update for Star Trek Adventures Roleplaying Game is currently available.","timestamp":"2023-01-12 17:34:20"}
+{"level":"info","message":"Vended World data to User [vQeim8jy8a9qUfub] in 72ms","timestamp":"2023-01-12 17:34:20"}
+{"level":"info","message":"Created client session 4bc9fac3e4e743ec45b8d21f","timestamp":"2023-01-12 17:39:01"}
+{"ip":"::ffff:192.168.0.22","level":"info","message":"User authentication successful for user Player2","session":"4bc9fac3e4e743ec45b8d21f","timestamp":"2023-01-12 17:39:23"}
+{"level":"info","message":"No system update for Star Trek Adventures Roleplaying Game is currently available.","timestamp":"2023-01-12 17:39:24"}
+{"level":"info","message":"Vended World data to User [al5sMRCzrhVOWO6m] in 211ms","timestamp":"2023-01-12 17:39:24"}
+{"level":"info","message":"FoundryVTT | Created Setting with id [1AEthda1rp3ewPrb]","timestamp":"2023-01-12 17:39:29"}
+{"level":"info","message":"Shutting down Foundry Virtual Tabletop server","timestamp":"2023-01-12 17:41:31"}
