@@ -2,9 +2,9 @@
 
 port=30000
 
-ENCRYPTED_WEBHOOK='U2FsdGVkX19L6NSNUCkm5VNz+ylD7c/xPqFf3a3reeXg78oBfgRcruoS0TRnYRmW
-itSZphyDHDyFlUg8cRetY02MUpcNXUzTFUaE7vl7tspf68qSno+Uj60TcR6pVTF3
-0E6KVeeywCjx266ApLC9zIAvBoBh6XsEtqmhbmh9JMQjWhDBwpCSmeBEyIvCIrrN'
+ENCRYPTED_WEBHOOK='U2FsdGVkX19FMK/Rgsco6ZYwBpyk8Y1BF0VZbfldvCnjlCQ3t9DvmHvZtTchexWB
+/AZm7rkdQMSJNef7+rv7v+k2aOztpPt3AEPT/9CWSrZoDjBC1tLv88biU6RI+Hf2
+IdyABBmkCdd+DSxNABY3BDjapN9dz7GRWmthetHRI8ZuPbyhNLlsHihp1IjyEcRq'
 
 # get webhook
 WEBHOOK_URL=`echo $ENCRYPTED_WEBHOOK | openssl aes-256-cbc -d -a -salt -pass pass:somepassword`
