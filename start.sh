@@ -39,7 +39,7 @@ function ip_check() {
     externalip=$(curl -s http://checkip.amazonaws.com)
     currentIp=""
     while [ $loopTerminator -eq 1 ]; do
-        echo "Checking IP, current IP: $currentIp, external IP: $externalip"
+        echo "Checking IP..."
         if [ "$currentIp" != "$externalip" ]; then
             externalip=$(curl -s http://checkip.amazonaws.com)
             currentIp=$externalip
@@ -48,6 +48,7 @@ function ip_check() {
             --username "$bot_username" \
             --text "Foundry Instance\\n\\tLocal IP: http://$localip:$port\\n\\tExternal IP: http://$externalip:$port"
         fi
+        echo "current IP: $currentIp, external IP: $externalip"
         sleep 60
     done
 }
