@@ -441,3 +441,32 @@
 {"level":"info","message":"Vended World data to User [al5sMRCzrhVOWO6m] in 211ms","timestamp":"2023-01-12 17:39:24"}
 {"level":"info","message":"FoundryVTT | Created Setting with id [1AEthda1rp3ewPrb]","timestamp":"2023-01-12 17:39:29"}
 {"level":"info","message":"Shutting down Foundry Virtual Tabletop server","timestamp":"2023-01-12 17:41:31"}
+{"level":"info","message":"Running on Node.js - Version 19.4.0","timestamp":"2023-01-15 22:22:46"}
+{"level":"info","message":"Foundry Virtual Tabletop - Version 10 Build 291","timestamp":"2023-01-15 22:22:46"}
+{"level":"info","message":"User Data Directory - \"/home/pi/CustomVTT/data\"","timestamp":"2023-01-15 22:22:46"}
+{"level":"info","message":"Application Options:\n{\n  \"compressStatic\": true,\n  \"fullscreen\": false,\n  \"hostname\": null,\n  \"language\": \"en.core\",\n  \"localHostname\": null,\n  \"port\": 30000,\n  \"protocol\": null,\n  \"proxyPort\": null,\n  \"proxySSL\": false,\n  \"routePrefix\": null,\n  \"updateChannel\": \"stable\",\n  \"upnp\": true,\n  \"upnpLeaseDuration\": null,\n  \"awsConfig\": null,\n  \"passwordSalt\": null,\n  \"sslCert\": null,\n  \"sslKey\": null,\n  \"world\": null,\n  \"serviceConfig\": null,\n  \"adminPassword\": null\n}","timestamp":"2023-01-15 22:22:46"}
+{"level":"error","message":"Software license verification failed. Please confirm your Foundry Virtual Tabletop software license","timestamp":"2023-01-15 22:22:46"}
+{"level":"info","message":"Requesting UPnP port forwarding to destination port 30000","timestamp":"2023-01-15 22:22:46"}
+{"level":"info","message":"Server started and listening on port 30000","timestamp":"2023-01-15 22:22:46"}
+{"level":"info","message":"Created client session 5fb8cc54e7be2b41b95099e1","timestamp":"2023-01-15 22:22:58"}
+{"level":"info","message":"Created client session d483ca34c935cfdaf13c849b","timestamp":"2023-01-15 22:22:59"}
+{"level":"info","message":"License signature successfully created. Thank you and please enjoy Foundry Virtual Tabletop.","timestamp":"2023-01-15 22:23:03"}
+{"level":"info","message":"Software license verification succeeded","timestamp":"2023-01-15 22:23:03"}
+{"ip":"::ffff:192.168.1.216","level":"info","message":"User authentication successful for user Player3","session":"5fb8cc54e7be2b41b95099e1","timestamp":"2023-01-15 22:23:19"}
+{"level":"info","message":"No system update for Star Trek Adventures Roleplaying Game is currently available.","timestamp":"2023-01-15 22:23:21"}
+{"level":"info","message":"Vended World data to User [0ICoJ0e226qvGkOt] in 293ms","timestamp":"2023-01-15 22:23:21"}
+{"ip":"::ffff:192.168.1.216","level":"info","message":"User authentication successful for user Gamemaster","session":"5fb8cc54e7be2b41b95099e1","timestamp":"2023-01-15 22:23:49"}
+{"level":"info","message":"No system update for Star Trek Adventures Roleplaying Game is currently available.","timestamp":"2023-01-15 22:23:50"}
+{"level":"info","message":"Vended World data to User [vQeim8jy8a9qUfub] in 118ms","timestamp":"2023-01-15 22:23:50"}
+{"level":"info","message":"Created client session 9385214455731ae5403626a7","timestamp":"2023-01-15 22:24:03"}
+{"ip":"::ffff:73.109.68.231","level":"info","message":"User authentication successful for user Player2","session":"9385214455731ae5403626a7","timestamp":"2023-01-15 22:24:10"}
+{"level":"info","message":"No system update for Star Trek Adventures Roleplaying Game is currently available.","timestamp":"2023-01-15 22:24:12"}
+{"level":"info","message":"Vended World data to User [al5sMRCzrhVOWO6m] in 122ms","timestamp":"2023-01-15 22:24:12"}
+{"level":"info","message":"Toggling game pause status to false","timestamp":"2023-01-15 22:24:21"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [XOsUPoSnH0xcWhCw] in parent Scene [IgDaeSokIAHcRgtf]","timestamp":"2023-01-15 22:24:33"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [KSBJwQWXNui9ZFbl] in parent Scene [IgDaeSokIAHcRgtf]","timestamp":"2023-01-15 22:24:34"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [uHbGiflwXEgIlVDj] in parent Scene [IgDaeSokIAHcRgtf]","timestamp":"2023-01-15 22:24:36"}
+{"level":"info","message":"FoundryVTT | Created MeasuredTemplate with id [Z0EOeivLmtpp0F8T] in parent Scene [IgDaeSokIAHcRgtf]","timestamp":"2023-01-15 22:24:37"}
+{"level":"info","message":"FoundryVTT | Applied sidegrade metadata updates to system dnd5e","timestamp":"2023-01-15 22:25:14"}
+{"level":"info","message":"FoundryVTT | Applied sidegrade metadata updates to system sta","timestamp":"2023-01-15 22:25:15"}
+{"level":"info","message":"Shutting down Foundry Virtual Tabletop server","timestamp":"2023-01-15 22:25:28"}
