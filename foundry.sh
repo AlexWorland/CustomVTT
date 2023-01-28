@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# online
-# ENCRYPTED_WEBHOOK='U2FsdGVkX18Lg2GxDjdNfS4wmBTtBPba9QrM+QgDC2wqXnWuVpEvitv6JkzEibxGJ5/abuLTU1R+LSkXfRN/7eaNYaW5Nfz2NzsK48leHYVuYDByJXGpwztTNSxse52AS4VDRJ0Of8UNZ7CRf6Gh5VUYN1EoNeUSjCZfqU8wpCGSFcyEYiA9nJZQGw5NvZD0'
-# local
-# ENCRYPTED_WEBHOOK='U2FsdGVkX1/udDJgrNaqWg2DU9GyORMMtdUeFOMHm8VmCeQiTI4CIbnqoQTE2v0P3zySaQ4oNhrx62k5lTszSQcITl9SOq+BKqJWwfa84m+TAvDiF5d3LptfrbCwD3lEO405GNI5pQwA+f38FQpi2PrXNi9K4+mY2XyasdNaU+XUZxEI2FY5xk2G7yLRDNrf'
-
 port=30000
 bot_username="FoundryVTT Bot"
 
@@ -19,7 +14,6 @@ fi
 WEBHOOK_URL=`echo $ENCRYPTED_WEBHOOK | openssl aes-256-cbc -d -a -salt -pass pass:somepassword`
 
 loopTerminator=1
-
 
 function ctrl_c() {
     ./discord.sh \
@@ -48,7 +42,7 @@ function ip_check() {
             --username "$bot_username" \
             --text "Foundry Instance\\n\\tLocal IP: http://$localip:$port\\n\\tExternal IP: http://$externalip:$port"
         fi
-        echo "current IP: $currentIp, external IP: $externalip"
+        echo "local IP: $currentIp, external IP: $externalip"
         sleep 60
     done
 }
@@ -59,8 +53,6 @@ trap ctrl_c INT
     --webhook-url=$WEBHOOK_URL \
     --username "$bot_username" \
     --text "FoundryVTT Server is starting up!"
-
-pwd
 
 node Application/resources/app/main.js --dataPath=./data/ &
 
